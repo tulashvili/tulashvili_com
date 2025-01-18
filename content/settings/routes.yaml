@@ -1,0 +1,15 @@
+routes:
+
+collections:
+  /:
+    permalink: /{slug}/
+    template: index
+  
+  /micro-tech/:
+    permalink: /micro-tech/{slug}/
+    template: page
+    filter: tag:#micro_tech
+
+taxonomies:
+  tag: /tag/{slug}/
+  author: /author/{slug}/
